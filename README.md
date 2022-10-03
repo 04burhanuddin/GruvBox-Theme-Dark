@@ -19,14 +19,23 @@ By default css `gnome-shell/gnome-shell.css`
 Fix css `gnome-shell/gnome-shell.css`
 
 ```css
+#dash {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  padding: 0px;
+}
+
 .dash-background {
   background-color: rgba(104, 97, 97, 0);
-  margin-bottom: 0;
+  margin-bottom: 0px;
+  margin-top: 0px;
   padding: 2px;
+  border: none;
+  justify-items: center;
   border-radius: 20px;
   box-shadow: inset 0 0 0 1px #f9f5d700;
 }
 ```
 And finally
 
-<img src="assets/after.png">
+<img src="assets/update_new.png">
